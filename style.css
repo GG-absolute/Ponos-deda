@@ -131,6 +131,7 @@
 .sek4 {
   max-width: 1500px;
   margin: auto;
+  margin-top: 50px;
   padding: 100px 0;
   background-color: #FFFFFF;
 }
@@ -688,7 +689,6 @@
   transform: translateY(-50%);
   width: 22px;
   height: 2px;
-  background-color: #FFAA2B;
 }
 .sek9 > div > div > div a {
   font-size: 14px;
@@ -703,4 +703,135 @@
 }
 .sek9 > div > div > div a:hover {
   color: #217BF4;
+}
+
+.footer {
+  background-color: #2B2B35;
+  padding-top: 80px;
+}
+.footer > div > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding-bottom: 60px;
+  gap: 40px;
+}
+.footer > div > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+}
+.footer > div > div:first-child > div h4 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.footer > div > div:first-child > div nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer > div > div:first-child > div nav a {
+  color: #9A9A9A;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.footer > div > div:first-child > div nav a:hover {
+  color: #FFFFFF;
+}
+.footer > div > div:first-child > div:last-child {
+  width: 340px;
+}
+.footer > div > div:first-child > div:last-child h4 {
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.footer > div > div:first-child > div:last-child p {
+  color: #9A9A9A;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.footer > div > div:first-child > div:last-child form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #4F4F5B;
+  border-radius: 12px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.footer > div > div:first-child > div:last-child form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.footer > div > div:first-child > div:last-child form input::-moz-placeholder {
+  color: #9A9A9A;
+}
+.footer > div > div:first-child > div:last-child form input::placeholder {
+  color: #9A9A9A;
+}
+.footer > div > div:first-child > div:last-child form button {
+  background-color: #FFFFFF;
+  color: #2B2B35;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer > div > div:first-child > div:last-child form button:hover {
+  opacity: 0.9;
+}
+.footer > div > div:last-child {
+  background-color: #202029;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer > div > div:last-child > span, .footer > div > div:last-child > a, .footer > div > div:last-child > div {
+  width: 85%;
+  margin: auto;
+}
+.footer > div > div:last-child span {
+  color: #9A9A9A;
+  font-size: 14px;
+  text-align: left;
+}
+.footer > div > div:last-child a {
+  text-align: center;
+}
+.footer > div > div:last-child a img {
+  height: 32px;
+}
+.footer > div > div:last-child div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.footer > div > div:last-child div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.footer > div > div:last-child div a img {
+  height: 16px;
+}
+.footer > div > div:last-child div a:hover {
+  opacity: 0.9;
 }/*# sourceMappingURL=style.css.map */
