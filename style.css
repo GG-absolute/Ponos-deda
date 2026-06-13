@@ -249,4 +249,203 @@
 }
 .sek4 > div > div:last-child > div:last-child img:last-child {
   height: 155px;
+}
+
+.sek5 {
+  padding: 100px 0;
+  background-color: #FFFFFF;
+}
+.sek5 > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  gap: 50px;
+}
+.sek5 > div > div:first-child {
+  display: flex;
+  gap: 30px;
+}
+.sek5 > div > div:first-child > div {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 14px;
+  padding: 40px;
+  width: 330px;
+  box-sizing: border-box;
+}
+.sek5 > div > div:first-child > div > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0A0E31;
+  margin-bottom: 25px;
+}
+.sek5 > div > div:first-child > div > div:first-child img {
+  width: 24px;
+  height: 24px;
+}
+.sek5 > div > div:first-child > div > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #656565;
+  margin-bottom: 30px;
+}
+.sek5 > div > div:first-child > div > div:nth-child(2) img {
+  height: 30px;
+}
+.sek5 > div > div:first-child > div > div:nth-child(2) strong {
+  color: #217BF4;
+  font-weight: 600;
+}
+.sek5 > div > div:first-child > div p {
+  font-size: 15px;
+  color: #656565;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+.sek5 > div > div:first-child > div a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #656565;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.sek5 > div > div:first-child > div a:hover {
+  color: #217BF4;
+}
+.sek5 > div > div:last-child {
+  width: 440px;
+}
+.sek5 > div > div:last-child span {
+  color: #217BF4;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.sek5 > div > div:last-child h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #0A0E31;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+.sek5 > div > div:last-child p {
+  font-size: 16px;
+  color: #656565;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+.sek5 > div > div:last-child button {
+  padding: 18px 36px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #217BF4;
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(33, 123, 244, 0.25);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sek6 {
+  padding: 100px 0;
+}
+.sek6 > div {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+.sek6 > div span {
+  color: #217BF4;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.sek6 > div h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0A0E31;
+  margin-bottom: 16px;
+}
+.sek6 > div p {
+  font-size: 16px;
+  color: #656565;
+  max-width: 460px;
+  margin: auto;
+  line-height: 1.6;
+}
+.sek6 > div > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 60px;
+  text-align: left;
+}
+.sek6 > div > div > div {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.02);
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+.sek6 > div > div > div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.sek6 > div > div > div div h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0A0E31;
+  margin-bottom: 10px;
+}
+.sek6 > div > div > div div p {
+  font-size: 14px;
+  color: #656565;
+  line-height: 1.6;
+  max-width: 100%;
+  margin: 0;
+}
+.sek6 > div > div > div:nth-child(1) img {
+  background-color: #217BF4;
+  box-shadow: 0px 8px 20px rgba(33, 123, 244, 0.25);
+}
+.sek6 > div > div > div:nth-child(2) img {
+  background-color: #EE5F5F;
+  box-shadow: 0px 8px 20px rgba(238, 95, 95, 0.25);
+}
+.sek6 > div > div > div:nth-child(3) img {
+  background-color: #FFAA2B;
+  box-shadow: 0px 8px 20px rgba(255, 170, 43, 0.25);
+}
+.sek6 > div > div > div:nth-child(4) img {
+  background-color: #25A2F9;
+  box-shadow: 0px 8px 20px rgba(37, 162, 249, 0.25);
+}
+.sek6 > div > div > div:nth-child(5) img {
+  background-color: #FF4C6F;
+  box-shadow: 0px 8px 20px rgba(255, 76, 111, 0.25);
+}
+.sek6 > div > div > div:nth-child(6) img {
+  background-color: #FFB82B;
+  box-shadow: 0px 8px 20px rgba(255, 184, 43, 0.25);
 }/*# sourceMappingURL=style.css.map */
