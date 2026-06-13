@@ -713,7 +713,7 @@ $border-orange: #FFAA2B;
 .sek8
 {
     background-color: $bg-section;
-    padding: 100px;
+    padding-top: 100px;
     overflow: hidden;
 
     > div
@@ -762,13 +762,15 @@ $border-orange: #FFAA2B;
 
                 a
                 {
-                    display: inline-block;
+                    display: flex;
+                    align-items: center;
                     transition: 0.3s;
 
                     img
                     {
-                        height: 52px;
                         display: block;
+                        display: flex;
+                        align-items: center;
                     }
 
                     &:hover
@@ -787,9 +789,104 @@ $border-orange: #FFAA2B;
 
             img
             {
-                max-width: 100%;
+                margin-top: 100px;
+                width: 100%;
                 height: auto;
                 display: block;
+            }
+        }
+    }
+}
+.sek9
+{
+    padding: 100px;
+    background-color: #FFFFFF;
+
+    > div
+    {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+
+        span
+        {
+            color: $blue-main;
+            font-size: 16px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        h2
+        {
+            font-size: 36px;
+            font-weight: 700;
+            color: $text-dark;
+            margin-bottom: 60px;
+        }
+
+        > div
+        {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            text-align: left;
+
+            > div
+            {
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+
+                img
+                {
+                    width: 100%;
+                    height: 260px;
+                    object-fit: cover;
+                    border-radius: 16px;
+                    margin-bottom: 25px;
+                }
+
+                h3
+                {
+                    font-size: 19px;
+                    font-weight: 700;
+                    color: $text-dark;
+                    line-height: 1.4;
+                    margin-bottom: 20px;
+                    position: relative;
+                    padding-left: 35px;
+
+                    &::before
+                    {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 22px;
+                        height: 2px;
+                        background-color: $line-orange;
+                    }
+                }
+
+                a
+                {
+                    font-size: 14px;
+                    color: $text-gray;
+                    text-decoration: none;
+                    font-weight: 500;
+                    margin-top: auto;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 6px;
+                    transition: 0.3s;
+
+                    &:hover
+                    {
+                        color: $blue-main;
+                    }
+                }
             }
         }
     }
